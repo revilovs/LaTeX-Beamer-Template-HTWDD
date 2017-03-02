@@ -47,7 +47,7 @@ the concern is about presentation according to CI (and
 therefore the [Corporate Design][CorpDesign]) of HTW or
 it students council (StuRa) either.
 
-Deleted content from the original:
+Deleted content thats was in the original:
 * [beamer-appearance-dependency-cheat-sheet](https://github.com/DevelAngel707/LaTeX-Beamer-Templates-with-TikZ/tree/master/beamer-appearance-dependency-cheat-sheet)
 * [beamerthemeAngel707](https://github.com/DevelAngel707/LaTeX-Beamer-Templates-with-TikZ/tree/master/beamerthemeAngel707)
 * [examples](https://github.com/DevelAngel707/LaTeX-Beamer-Templates-with-TikZ/tree/master/examples)
