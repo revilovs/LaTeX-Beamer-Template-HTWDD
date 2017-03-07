@@ -11,8 +11,11 @@ Background
 ----------
 
 This beamer theme is a custom theme, styled with simpliness in mind.
-The design and first version without tikz was made by [Hermann Lorenz],
-which was used in many student presentations between 2012 and 2014.
+The design and first versions
+([draft as part of SensorNets](htwdd-sensornetze-latex),
+[HelloTheme](https://github.com/stura-htw-dresden/LaTeX-Beamer-HTWDD-woTikZ))
+without TikZ was originally made by [Hermann Lorenz],
+which was used in student presentations between 2012 and 2014.
 [Angelos] decided to refactor this theme utilizing tikz.
 
 [Hermann Lorenz]: http://www.stura.htw-dresden.de/members/HermannLorenz
