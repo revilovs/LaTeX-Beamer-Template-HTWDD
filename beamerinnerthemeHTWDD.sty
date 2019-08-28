@@ -11,6 +11,7 @@
 \mode<presentation>
 
 
+\setbeamerfont{bold title}{parent=title, series=\bfseries}
 
 
 %% Requirements
@@ -52,9 +53,9 @@
 		\ifx\inserttitlegraphic\@empty
 		{
 			%% TITLE
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=title.fg, font=\usebeamerfont{title}]
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=title.fg, font=\usebeamerfont{bold title}]
 				(ntitle) at (0.5*\ctitlepagesizex, 0.8*\ctitlepagesizey)
-				{\usebeamerfont{title}\MakeUppercase \inserttitle};
+				{\usebeamerfont{bold title}\MakeUppercase \inserttitle};
 			%% AUTHOR
 			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=author.fg, font=\usebeamerfont{author}, yshift=-1ex]
 				(nauthor) at (ntitle.south)
