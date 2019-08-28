@@ -46,25 +46,25 @@
 		%% title page background -- end
 		%% title page foreground -- begin
 		%% LOGO
-		%\node[anchor=south west]
-		%	(nlogo) at (0.01*\ctitlepagesizex, 0.02*\ctitlepagesizey)
-		%	{\insertlogo};
+		\node[anchor=south west]
+			(nlogo) at (0.05*\ctitlepagesizex, 0.05*\ctitlepagesizey)
+			{\insertlogo};
 		\ifx\inserttitlegraphic\@empty
 		{
 			%% TITLE
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=center, color=title.fg, font=\usebeamerfont{title}]
-				(ntitle) at (0.5*\ctitlepagesizex, 0.7*\ctitlepagesizey)
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=title.fg, font=\usebeamerfont{title}]
+				(ntitle) at (0.5*\ctitlepagesizex, 0.8*\ctitlepagesizey)
 				{\usebeamerfont{title}\inserttitle};
 			%% AUTHOR
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=center, color=author.fg, font=\usebeamerfont{author}, yshift=-1ex]
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=author.fg, font=\usebeamerfont{author}, yshift=-1ex]
 				(nauthor) at (ntitle.south)
 				{\usebeamerfont{author}\insertauthor};
 			%% INSTITUTE
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=center, color=institute.fg, font=\usebeamerfont{institute}, yshift=-1ex]
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=institute.fg, font=\usebeamerfont{institute}, yshift=-1ex]
 				(ninstitute) at (nauthor.south)
 				{\usebeamerfont{institute}\insertinstitute};
 			%% DATE
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=center, color=date.fg, font=\usebeamerfont{date}, yshift=-1ex]
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=date.fg, font=\usebeamerfont{date}, yshift=-1ex]
 				(ndate) at (ninstitute.south)
 				{\usebeamerfont{date}\insertdate};
 		}
@@ -75,19 +75,19 @@
 				(ngraphic) at (0.5*\ctitlepagesizex, 0.05*\ctitlepagesizey)
 				{\inserttitlegraphic};
 			%% TITLE
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=center, color=title.fg, font=\usebeamerfont{title}]
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=title.fg, font=\usebeamerfont{title}]
 				(ntitle) at (0.5*\ctitlepagesizex, 0.9*\ctitlepagesizey)
 				{\usebeamerfont{title}\inserttitle};
 			%% AUTHOR
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=center, color=author.fg, font=\usebeamerfont{author}, yshift=-2ex]
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=author.fg, font=\usebeamerfont{author}, yshift=-2ex]
 				(nauthor) at (ntitle.south)
 				{\usebeamerfont{author}\insertauthor};
 			%% INSTITUTE
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=center, color=institute.fg, font=\usebeamerfont{institute}, yshift=-1ex]
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=institute.fg, font=\usebeamerfont{institute}, yshift=-1ex]
 				(ninstitute) at (nauthor.south)
 				{\usebeamerfont{institute}\insertinstitute};
 			%% DATE
-			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=center, color=date.fg, font=\usebeamerfont{date}, yshift=-1ex]
+			\node[anchor=north, text width=0.9*\ctitlepagesizex, align=left, color=date.fg, font=\usebeamerfont{date}, yshift=-1ex]
 				(ndate) at (ninstitute.south)
 				{\usebeamerfont{date}\insertdate};
 		}
